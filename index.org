@@ -8,3 +8,5 @@ org-publish-project
 ** broot
 :e para editar en wvim
 ** fasd
+[[file:remember.org][remember]]
+the milk
