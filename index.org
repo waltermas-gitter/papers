@@ -1,4 +1,8 @@
 #+title: Papers
+#+HTML_HEAD: <link rel="icon" href="img/favicon.png">
+* Links
+[[elisp:org-publish-project][publish to docs]]
+[[file:remember.org][remember]]
 * Programas geniales
 🆒
 ** emacs
@@ -8,5 +12,5 @@ org-publish-project
 ** broot
 :e para editar en wvim
 ** fasd
-[[file:remember.org][remember]]
-the milk
+con autor
+what??
