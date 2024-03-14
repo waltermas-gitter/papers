@@ -1,0 +1,10 @@
+#+title: Papers
+* Programas geniales
+🆒
+** emacs
+*** publish html
+[[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][publishing tutorial]]
+org-publish-project
+** broot
+:e para editar en wvim
+** fasd
