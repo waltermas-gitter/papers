@@ -1,5 +1,5 @@
 #+title: Papers
-#+HTML_HEAD: <link rel="icon" href="img/favicon.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png">
 * Links
 [[elisp:org-publish-project][publish to docs]]
 [[http://127.0.0.1:8080][localhost]]
@@ -12,6 +12,4 @@
 ** broot
 :e para editar en wvim
 ** fasd
-Excelente programa
-sin toc
 *** TODO practicar git
