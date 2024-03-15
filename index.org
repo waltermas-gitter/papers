@@ -2,6 +2,7 @@
 #+HTML_HEAD: <link rel="icon" href="img/favicon.png">
 * Links
 [[elisp:org-publish-project][publish to docs]]
+[[http://127.0.0.1:8080][localhost]]
 [[file:remember.org][remember]]
 * Programas geniales
 🆒
