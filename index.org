@@ -12,6 +12,5 @@
 ** broot
 :e para editar en wvim
 ** fasd
-con autor
-what??
-[[file:remember.org][remember]]
+Excelente programa
+sin toc
