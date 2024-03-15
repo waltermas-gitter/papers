@@ -1,24 +1,16 @@
 #+title: Papers
-<<<<<<< HEAD
 #+HTML_HEAD: <link rel="icon" href="img/favicon.png">
 * Links
 [[elisp:org-publish-project][publish to docs]]
 [[file:remember.org][remember]]
-=======
->>>>>>> parent of ce1e90b (without numbers)
 * Programas geniales
 🆒
 ** emacs
 *** publish html
 [[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][publishing tutorial]]
-org-publish-project
 ** broot
 :e para editar en wvim
 ** fasd
-<<<<<<< HEAD
 con autor
 what??
-=======
 [[file:remember.org][remember]]
-the milk
->>>>>>> parent of ce1e90b (without numbers)
