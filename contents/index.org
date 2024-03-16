@@ -1,7 +1,6 @@
 #+title: Papers
-#+HTML_HEAD: <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 * Links
-[[elisp:org-publish-project][publish to docs]]
+[[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][tutorial org to html]]
 [[http://127.0.0.1:8080][localhost]]
 [[file:remember.org][remember]]
 * Programas geniales
@@ -13,5 +12,14 @@
 :e para editar en wvim
 ** fasd
 *** TODO practicar git
-agregado html head
-ht3dm web
+#+begin_src python
+import os
+print("holis")
+
+#+end_src
+
+#+BEGIN_SRC emacs-lisp
+  (defun org-xor (a b)
+     "Exclusive or."
+     (if a (not b) b))
+#+END_SRC

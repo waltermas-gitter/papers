@@ -1,6 +1,4 @@
-;; This buffer is for text that is not saved, and for Lisp evaluation.
-;; To create a file, visit it with C-x C-f and enter text in its buffer.
-
+;; publishing papers
 (require 'ox-publish)
 (setq org-publish-project-alist
       '(
@@ -11,7 +9,10 @@
  :recursive t
  :publishing-function org-html-publish-to-html
  :headline-levels 4             ; Just the default for this project.
+ :section-numbers nil
  :auto-preamble t
+ :with-author t
+ :with-toc nil
  )
 ("org-static"
  :base-directory "~/MEGAsync/papersorg/"
@@ -21,5 +22,4 @@
  :publishing-function org-publish-attachment
  )
 ("org" :components ("org-notes" "org-static"))
-
       ))
