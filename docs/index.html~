@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-03-16 sáb 12:13 -->
+<!-- 2024-03-16 sáb 12:20 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Papers</title>
@@ -11,14 +11,18 @@
 <meta name="generator" content="Org Mode" />
 
 <link rel='stylesheet' href='https://cdn.simplecss.org/simple.min.css' />
-<link rel='icon' type='image/x-icon' href='/favicon.ico'>
+<link rel='icon' type='image/x-icon' href='/img/favicon_io/favicon.ico'>
+<link rel='apple-touch-icon' sizes='180x180' href='/img/favicon_io/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='/img/favicon_io/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='/img/favicon_io/favicon-16x16.png'>
+<link rel=imanifest' href='/img/favicon_io/site.webmanifest'>
 </head>
 <body>
 <div id="content" class="content">
 <h1 class="title">Papers</h1>
-<div id="outline-container-org5c835b7" class="outline-2">
-<h2 id="org5c835b7">Links</h2>
-<div class="outline-text-2" id="text-org5c835b7">
+<div id="outline-container-org9c92456" class="outline-2">
+<h2 id="org9c92456">Links</h2>
+<div class="outline-text-2" id="text-org9c92456">
 <p>
 <a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">tutorial org to html</a>
 <a href="http://127.0.0.1:8080">localhost</a>
@@ -26,41 +30,41 @@
 </p>
 </div>
 </div>
-<div id="outline-container-org7555ffa" class="outline-2">
-<h2 id="org7555ffa">Programas geniales</h2>
-<div class="outline-text-2" id="text-org7555ffa">
+<div id="outline-container-orgee7d4df" class="outline-2">
+<h2 id="orgee7d4df">Programas geniales</h2>
+<div class="outline-text-2" id="text-orgee7d4df">
 <p>
 🆒
 </p>
 </div>
-<div id="outline-container-orge0a4bdb" class="outline-3">
-<h3 id="orge0a4bdb">emacs</h3>
-<div class="outline-text-3" id="text-orge0a4bdb">
+<div id="outline-container-orgadf9022" class="outline-3">
+<h3 id="orgadf9022">emacs</h3>
+<div class="outline-text-3" id="text-orgadf9022">
 </div>
-<div id="outline-container-org225b6e8" class="outline-4">
-<h4 id="org225b6e8">publish html</h4>
-<div class="outline-text-4" id="text-org225b6e8">
+<div id="outline-container-orga5f3d34" class="outline-4">
+<h4 id="orga5f3d34">publish html</h4>
+<div class="outline-text-4" id="text-orga5f3d34">
 <p>
 <a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing tutorial</a>
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orgd5a70d0" class="outline-3">
-<h3 id="orgd5a70d0">broot</h3>
-<div class="outline-text-3" id="text-orgd5a70d0">
+<div id="outline-container-org41e0996" class="outline-3">
+<h3 id="org41e0996">broot</h3>
+<div class="outline-text-3" id="text-org41e0996">
 <p>
 :e para editar en wvim
 </p>
 </div>
 </div>
-<div id="outline-container-org26d7324" class="outline-3">
-<h3 id="org26d7324">fasd</h3>
-<div class="outline-text-3" id="text-org26d7324">
+<div id="outline-container-org510e7b6" class="outline-3">
+<h3 id="org510e7b6">fasd</h3>
+<div class="outline-text-3" id="text-org510e7b6">
 </div>
-<div id="outline-container-org443fff6" class="outline-4">
-<h4 id="org443fff6"><span class="todo TODO">TODO</span> practicar git</h4>
-<div class="outline-text-4" id="text-org443fff6">
+<div id="outline-container-org5c1e4ec" class="outline-4">
+<h4 id="org5c1e4ec"><span class="todo TODO">TODO</span> practicar git</h4>
+<div class="outline-text-4" id="text-org5c1e4ec">
 <div class="org-src-container">
 <pre class="src src-python"><span style="font-weight: bold;">import</span> os
 <span style="font-weight: bold;">print</span>(<span style="font-style: italic;">"holis"</span>)
@@ -85,7 +89,7 @@ me hincho las pelotas el favicon
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: waltermas</p>
-<p class="date">Created: 2024-03-16 sáb 12:13</p>
+<p class="date">Created: 2024-03-16 sáb 12:20</p>
 </div>
 </body>
 </html>
