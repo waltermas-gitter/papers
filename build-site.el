@@ -21,7 +21,7 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
-<link rel=\"icon\" type=\"image/x-icon\" href=\"/img/favicon.ico\">")
+<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">")
 
 (setq org-publish-project-alist
       (list
