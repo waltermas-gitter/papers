@@ -20,8 +20,20 @@
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
-<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">")
+      ;; org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
+      ;; org-html-head "
+;; <link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />
+;; <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">")
+
+      org-html-head "
+<link rel='stylesheet' href='https://cdn.simplecss.org/simple.min.css' />
+<link rel='icon' type='image/x-icon' href='/img/favicon_io/favicon.ico'>
+<link rel='apple-touch-icon' sizes='180x180' href='/img/favicon_io/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='/img/favicon_io/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='/img/favicon_io/favicon-16x16.png'>
+<link rel=imanifest' href='/img/favicon_io/site.webmanifest'>
+")
+
 
 (setq org-publish-project-alist
       (list
