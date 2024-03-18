@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-03-16 sáb 12:41 -->
+<!-- 2024-03-18 lun 17:36 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Papers</title>
@@ -20,9 +20,9 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">Papers</h1>
-<div id="outline-container-org7ba4a8a" class="outline-2">
-<h2 id="org7ba4a8a">Links</h2>
-<div class="outline-text-2" id="text-org7ba4a8a">
+<div id="outline-container-orgc0abde2" class="outline-2">
+<h2 id="orgc0abde2">Links</h2>
+<div class="outline-text-2" id="text-orgc0abde2">
 <p>
 <a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">tutorial org to html</a>
 <a href="http://127.0.0.1:8080">localhost</a>
@@ -30,58 +30,69 @@
 </p>
 </div>
 </div>
-<div id="outline-container-orgff03fce" class="outline-2">
-<h2 id="orgff03fce">Programas geniales</h2>
-<div class="outline-text-2" id="text-orgff03fce">
+<div id="outline-container-orgba370e0" class="outline-2">
+<h2 id="orgba370e0">Programas geniales</h2>
+<div class="outline-text-2" id="text-orgba370e0">
 <p>
 🆒
 </p>
 </div>
-<div id="outline-container-org99daffb" class="outline-3">
-<h3 id="org99daffb">emacs</h3>
-<div class="outline-text-3" id="text-org99daffb">
+<div id="outline-container-orgbb8d955" class="outline-3">
+<h3 id="orgbb8d955">emacs</h3>
+<div class="outline-text-3" id="text-orgbb8d955">
 </div>
-<div id="outline-container-org38f9b45" class="outline-4">
-<h4 id="org38f9b45">publish html</h4>
-<div class="outline-text-4" id="text-org38f9b45">
+<div id="outline-container-org72adc3a" class="outline-4">
+<h4 id="org72adc3a">publish html</h4>
+<div class="outline-text-4" id="text-org72adc3a">
 <p>
 <a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing tutorial</a>
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org8bb5f5c" class="outline-3">
-<h3 id="org8bb5f5c">broot</h3>
-<div class="outline-text-3" id="text-org8bb5f5c">
+<div id="outline-container-orgbda9623" class="outline-3">
+<h3 id="orgbda9623">broot</h3>
+<div class="outline-text-3" id="text-orgbda9623">
 <p>
 :e para editar en wvim
 </p>
 </div>
 </div>
-<div id="outline-container-org6b54f23" class="outline-3">
-<h3 id="org6b54f23">fasd</h3>
-<div class="outline-text-3" id="text-org6b54f23">
+<div id="outline-container-org7298b10" class="outline-3">
+<h3 id="org7298b10">fasd</h3>
+<div class="outline-text-3" id="text-org7298b10">
 </div>
-<div id="outline-container-orge7ab5b1" class="outline-4">
-<h4 id="orge7ab5b1"><span class="todo TODO">TODO</span> practicar git</h4>
-<div class="outline-text-4" id="text-orge7ab5b1">
+<div id="outline-container-org33370f1" class="outline-4">
+<h4 id="org33370f1"><span class="todo TODO">TODO</span> practicar git</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc6779dc" class="outline-2">
+<h2 id="orgc6779dc">Bash</h2>
+<div class="outline-text-2" id="text-orgc6779dc">
+<ul class="org-ul">
+<li>tail -c 9 # quita los ultimos 9 caracteres</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2182d34" class="outline-2">
+<h2 id="org2182d34">Keyboard</h2>
+<div class="outline-text-2" id="text-org2182d34">
+</div>
+<div id="outline-container-orgd12ede0" class="outline-3">
+<h3 id="orgd12ede0"><a href="https://wiki.debian.org/XCompose">Compose key</a></h3>
+<div class="outline-text-3" id="text-orgd12ede0">
 <div class="org-src-container">
-<pre class="src src-python"><span style="font-weight: bold;">import</span> os
-<span style="font-weight: bold;">print</span>(<span style="font-style: italic;">"holis"</span>)
+<pre class="src src-bash">~/.xsessionrc:
+xmodmap -e <span style="font-style: italic;">"keysym Control_R = Multi_key"</span>
+
+~/.XCompose:
+include <span style="font-style: italic;">"%L"</span>   <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">import the default Compose file for your locale</span>
+&lt;Multi_key&gt; &lt;Multi_key&gt; &lt;a&gt; : <span style="font-style: italic;">"&#227;"</span>
+&lt;Multi_key&gt; &lt;Multi_key&gt; &lt;o&gt; : <span style="font-style: italic;">"&#245;"</span>
+&lt;Multi_key&gt; &lt;Multi_key&gt; &lt;e&gt; : <span style="font-style: italic;">"&#234;"</span>
 
 </pre>
-</div>
-
-<div class="org-src-container">
-<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">org-xor</span> (a b)
-   <span style="font-style: italic;">"Exclusive or."</span>
-   (<span style="font-weight: bold;">if</span> a (not b) b))
-</pre>
-</div>
-
-<p>
-me hincho las pelotas el favicon
-</p>
 </div>
 </div>
 </div>
@@ -89,7 +100,7 @@ me hincho las pelotas el favicon
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: waltermas</p>
-<p class="date">Created: 2024-03-16 sáb 12:41</p>
+<p class="date">Created: 2024-03-18 lun 17:36</p>
 </div>
 </body>
 </html>

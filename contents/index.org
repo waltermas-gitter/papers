@@ -12,16 +12,18 @@
 :e para editar en wvim
 ** fasd
 *** TODO practicar git
-#+begin_src python
-import os
-print("holis")
+* Bash
+- tail -c 9 # quita los ultimos 9 caracteres
+* Keyboard
+** [[https://wiki.debian.org/XCompose][Compose key]]
+#+begin_src bash
+~/.xsessionrc:
+xmodmap -e "keysym Control_R = Multi_key"
+
+~/.XCompose:
+include "%L"   # import the default Compose file for your locale
+<Multi_key> <Multi_key> <a> : "ã"
+<Multi_key> <Multi_key> <o> : "õ"
+<Multi_key> <Multi_key> <e> : "ê"
 
 #+end_src
-
-#+BEGIN_SRC emacs-lisp
-  (defun org-xor (a b)
-     "Exclusive or."
-     (if a (not b) b))
-#+END_SRC
-
-me hincho las pelotas el favicon
