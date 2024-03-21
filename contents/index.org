@@ -17,7 +17,8 @@
 * Keyboard
 ** [[https://wiki.debian.org/XCompose][Compose key]]
 #+begin_src bash
-~/.xsessionrc:
+
+~/.xsessionrc: trato en .zshrc
 xmodmap -e "keysym Control_R = Multi_key"
 
 ~/.XCompose:
@@ -25,5 +26,16 @@ include "%L"   # import the default Compose file for your locale
 <Multi_key> <Multi_key> <a> : "ã"
 <Multi_key> <Multi_key> <o> : "õ"
 <Multi_key> <Multi_key> <e> : "ê"
+
+#+end_src
+* Boot
+** grabar iso
+#+begin_src bash
+
+sudo lsblk
+cp debian12.iso /dev/sdg
+sync
+
+dd if=debian.iso of=/dev/sdX (no probado)
 
 #+end_src
