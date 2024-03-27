@@ -14,6 +14,7 @@
 *** TODO practicar git
 * Bash
 - tail -c 9 # quita los ultimos 9 caracteres
+- >/dev/null 2>&1 # output to null
 * Keyboard
 ** [[https://wiki.debian.org/XCompose][Compose key]]
 #+begin_src bash
@@ -39,3 +40,16 @@ sync
 dd if=debian.iso of=/dev/sdX (no probado)
 
 #+end_src
+* Doom
+** install
+#+begin_src bash
+sudo apt install emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+#+end_src
+
+rmdir -rf ~/.emacs.d para que arranque doom
+directorios doom:
+- .config/doom
+- .config/emacs
+- .config/emacs/bin
