@@ -53,3 +53,26 @@ directorios doom:
 - .config/doom
 - .config/emacs
 - .config/emacs/bin
+* Rclone
+rclone mount pcloud:/ pcloudfolder --vfs-cache-mode=full
+* Python
+** enviroment
+python3 -m venv env
+source env/bin/activate
+pip install ....
+which python
+pip freeze > requirements.txt
+pip list
+deactivate
+pip install -r requirements.txt
+
+* Latex
+[[https://www.youtube.com/watch?v=0qHloGTT8XE][youtube tutorial]] [[https://wiki.debian.org/Latex][debian wiki]]
+sudo apt-get install texlive-latex-extra
+#+begin_src org
+#+title: Latex
+#+LaTeX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+#+OPTIONS: toc:nil
+texto
+#+end_src
