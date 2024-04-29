@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-03-21 jue 20:54 -->
+<!-- 2024-03-27 mié 17:18 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Papers</title>
@@ -20,9 +20,9 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">Papers</h1>
-<div id="outline-container-org6db079b" class="outline-2">
-<h2 id="org6db079b">Links</h2>
-<div class="outline-text-2" id="text-org6db079b">
+<div id="outline-container-org9339a88" class="outline-2">
+<h2 id="org9339a88">Links</h2>
+<div class="outline-text-2" id="text-org9339a88">
 <p>
 <a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">tutorial org to html</a>
 <a href="http://127.0.0.1:8080">localhost</a>
@@ -30,58 +30,59 @@
 </p>
 </div>
 </div>
-<div id="outline-container-orgd459c1c" class="outline-2">
-<h2 id="orgd459c1c">Programas geniales</h2>
-<div class="outline-text-2" id="text-orgd459c1c">
+<div id="outline-container-orge4831bb" class="outline-2">
+<h2 id="orge4831bb">Programas geniales</h2>
+<div class="outline-text-2" id="text-orge4831bb">
 <p>
 🆒
 </p>
 </div>
-<div id="outline-container-org85ab2fe" class="outline-3">
-<h3 id="org85ab2fe">emacs</h3>
-<div class="outline-text-3" id="text-org85ab2fe">
+<div id="outline-container-orgb9b4333" class="outline-3">
+<h3 id="orgb9b4333">emacs</h3>
+<div class="outline-text-3" id="text-orgb9b4333">
 </div>
-<div id="outline-container-orgf8bdbfc" class="outline-4">
-<h4 id="orgf8bdbfc">publish html</h4>
-<div class="outline-text-4" id="text-orgf8bdbfc">
+<div id="outline-container-orgf1e5a05" class="outline-4">
+<h4 id="orgf1e5a05">publish html</h4>
+<div class="outline-text-4" id="text-orgf1e5a05">
 <p>
 <a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">publishing tutorial</a>
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org4d359bc" class="outline-3">
-<h3 id="org4d359bc">broot</h3>
-<div class="outline-text-3" id="text-org4d359bc">
+<div id="outline-container-org6425477" class="outline-3">
+<h3 id="org6425477">broot</h3>
+<div class="outline-text-3" id="text-org6425477">
 <p>
 :e para editar en wvim
 </p>
 </div>
 </div>
-<div id="outline-container-org9b9083a" class="outline-3">
-<h3 id="org9b9083a">fasd</h3>
-<div class="outline-text-3" id="text-org9b9083a">
+<div id="outline-container-orga126c0b" class="outline-3">
+<h3 id="orga126c0b">fasd</h3>
+<div class="outline-text-3" id="text-orga126c0b">
 </div>
-<div id="outline-container-org8fd1963" class="outline-4">
-<h4 id="org8fd1963"><span class="todo TODO">TODO</span> practicar git</h4>
+<div id="outline-container-org83de2a1" class="outline-4">
+<h4 id="org83de2a1"><span class="todo TODO">TODO</span> practicar git</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-org097b64d" class="outline-2">
-<h2 id="org097b64d">Bash</h2>
-<div class="outline-text-2" id="text-org097b64d">
+<div id="outline-container-org72fa433" class="outline-2">
+<h2 id="org72fa433">Bash</h2>
+<div class="outline-text-2" id="text-org72fa433">
 <ul class="org-ul">
 <li>tail -c 9 # quita los ultimos 9 caracteres</li>
+<li>&gt;/dev/null 2&gt;&amp;1 # output to null</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8f14877" class="outline-2">
-<h2 id="org8f14877">Keyboard</h2>
-<div class="outline-text-2" id="text-org8f14877">
+<div id="outline-container-orgfb14a33" class="outline-2">
+<h2 id="orgfb14a33">Keyboard</h2>
+<div class="outline-text-2" id="text-orgfb14a33">
 </div>
-<div id="outline-container-orgd06db3a" class="outline-3">
-<h3 id="orgd06db3a"><a href="https://wiki.debian.org/XCompose">Compose key</a></h3>
-<div class="outline-text-3" id="text-orgd06db3a">
+<div id="outline-container-orgd388d7d" class="outline-3">
+<h3 id="orgd388d7d"><a href="https://wiki.debian.org/XCompose">Compose key</a></h3>
+<div class="outline-text-3" id="text-orgd388d7d">
 <div class="org-src-container">
 <pre class="src src-bash">
 ~/.xsessionrc: trato en .zshrc
@@ -98,13 +99,13 @@ include <span style="font-style: italic;">"%L"</span>   <span style="font-weight
 </div>
 </div>
 </div>
-<div id="outline-container-org0f4dc37" class="outline-2">
-<h2 id="org0f4dc37">Boot</h2>
-<div class="outline-text-2" id="text-org0f4dc37">
+<div id="outline-container-org79b43bf" class="outline-2">
+<h2 id="org79b43bf">Boot</h2>
+<div class="outline-text-2" id="text-org79b43bf">
 </div>
-<div id="outline-container-orgb786085" class="outline-3">
-<h3 id="orgb786085">grabar iso</h3>
-<div class="outline-text-3" id="text-orgb786085">
+<div id="outline-container-org6e6be50" class="outline-3">
+<h3 id="org6e6be50">grabar iso</h3>
+<div class="outline-text-3" id="text-org6e6be50">
 <div class="org-src-container">
 <pre class="src src-bash">
 sudo lsblk
@@ -118,10 +119,36 @@ dd <span style="font-weight: bold; font-style: italic;">if</span>=debian.iso <sp
 </div>
 </div>
 </div>
+<div id="outline-container-org95ad282" class="outline-2">
+<h2 id="org95ad282">Doom</h2>
+<div class="outline-text-2" id="text-org95ad282">
+</div>
+<div id="outline-container-orgb2ca406" class="outline-3">
+<h3 id="orgb2ca406">install</h3>
+<div class="outline-text-3" id="text-orgb2ca406">
+<div class="org-src-container">
+<pre class="src src-bash">sudo apt install emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+</pre>
+</div>
+
+<p>
+rmdir -rf ~/.emacs.d para que arranque doom
+directorios doom:
+</p>
+<ul class="org-ul">
+<li>.config/doom</li>
+<li>.config/emacs</li>
+<li>.config/emacs/bin</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: waltermas</p>
-<p class="date">Created: 2024-03-21 jue 20:54</p>
+<p class="date">Created: 2024-03-27 mié 17:18</p>
 </div>
 </body>
 </html>

@@ -12,6 +12,8 @@
 :e para editar en wvim
 ** fasd
 *** TODO practicar git
+** baobab
+analizador de espacio del disco
 * Bash
 - tail -c 9 # quita los ultimos 9 caracteres
 - >/dev/null 2>&1 # output to null
@@ -40,6 +42,18 @@ sync
 dd if=debian.iso of=/dev/sdX (no probado)
 
 #+end_src
+
+#+begin_src bash
+sudo update-grub o sudo grub-mkconfig -o /boot/grub/grub.cfg
+/etc/grub.d  # custom entries
+menuentry "Debian 12" {
+  insmod ext2
+  set isofile="/debian12.iso"
+  loopback loop (hd1,1)$isofile
+  linux (loop)/live/vmlinuz-6.1.0-10-amd64 boot=live findiso=$isofile
+  initrd (loop)/live/initrd.img-6.1.0-10-amd64
+}
+#+end_src
 * Doom
 ** install
 #+begin_src bash
@@ -53,6 +67,7 @@ directorios doom:
 - .config/doom
 - .config/emacs
 - .config/emacs/bin
+- .emacs.d/.local/straight/repos/themes/themes/
 * Rclone
 rclone mount pcloud:/ pcloudfolder --vfs-cache-mode=full
 * Python
@@ -65,7 +80,12 @@ pip freeze > requirements.txt
 pip list
 deactivate
 pip install -r requirements.txt
-
+** pyqt5
+*** iconos
+#+begin_src python
+import iconosResource_rc # pyrcc5 iconosResource.qrc -o iconosResource_rc.py
+self.st = QSystemTrayIcon(QIcon(":/iconos/antena.png")) # se puede copiar path en designer
+#+end_src
 * Latex
 [[https://www.youtube.com/watch?v=0qHloGTT8XE][youtube tutorial]] [[https://wiki.debian.org/Latex][debian wiki]]
 sudo apt-get install texlive-latex-extra
@@ -76,3 +96,11 @@ sudo apt-get install texlive-latex-extra
 #+OPTIONS: toc:nil
 texto
 #+end_src
+* Cinnamon
+[[https://www.cinnamon-look.org][cinnamon look]]
+** ~/.icons [[file:~/.icons/][icons]]
+- iconos
+- cursors
+** ~/.themes
+** ~/.local/share/applications [[file:~/.local/share/applications/][applications]]
+** ~/.local/share/fonts [[~/.local/share/fonts][fonts]]
