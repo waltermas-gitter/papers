@@ -4,9 +4,9 @@ title: index
 ---
 <ul>
   {% for cat in site.categories %}
-    <li style="color:green; font-weight:bold;">
+    <h2>
 	    {{ cat[0] }}
-    </li>
+    </h2>
 	<ul>
 	  {% for post in cat[1] %}
 	    <li>
@@ -15,4 +15,13 @@ title: index
 	  {% endfor %}
 	</ul>
   {% endfor %}
+</ul>
+<h2>Static files</h2>
+{% assign image_files = site.static_files %}
+<ul>
+{% for myimage in image_files %}
+	    <li>
+		    <a href="{{myimage.path| prepend: site.baseurl}}">{{ myimage.name }}</a>
+	    </li>
+{% endfor %}
 </ul>

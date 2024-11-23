@@ -1,0 +1,11 @@
+ejecutar este comando en autostart:
+xmodmap -e "keysym Control_R = Multi_key"
+
+en home: .XCompose
+include "%L"   # import the default Compose file for your locale
+#<Multi_key> <bar> <greater>     : "▸"
+#<Multi_key> <a> <b> : "people"
+#<a> <b> : "sin multikey"
+<Multi_key> <Multi_key> <a> : "ã"
+<Multi_key> <Multi_key> <o> : "õ"
+<Multi_key> <Multi_key> <e> : "ê"

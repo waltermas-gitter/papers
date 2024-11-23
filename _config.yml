@@ -1,2 +1,7 @@
 permalink: :title
 baseurl: /papers
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
