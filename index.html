@@ -2,11 +2,17 @@
 layout: default
 title: index
 ---
-<p>este es el index.html</p>
 <ul>
-  {% for post in site.posts %}
-    <li>
-	    <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+  {% for cat in site.categories %}
+    <li style="color:green; font-weight:bold;">
+	    {{ cat[0] }}
     </li>
+	<ul>
+	  {% for post in cat[1] %}
+	    <li>
+		    <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	</ul>
   {% endfor %}
 </ul>

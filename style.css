@@ -1,5 +1,6 @@
 body {
-margin-left: 50px;
+	font-family: Helvetica;
+	margin-left: 50px;
 }
 h1 {
   font-size: 50px;
@@ -9,3 +10,41 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
 }
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Monospace;
+    text-align: center;
+    color: white;
+    background-color: purple;
+}
+li {
+	margin: 25px;
+}
+ul {
+  display: block;
+  margin-left: -10px;
+}
+
+ul li {
+  display: block;
+  position: relative;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+ul li:before {
+  content: "";
+  position: absolute;
+  top: 1.2em;
+  left: -30px;
+  margin-top: -.9em;
+  background: #f69ec4;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+    

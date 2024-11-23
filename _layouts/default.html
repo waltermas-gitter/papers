@@ -4,9 +4,15 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ page.title }}</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon.png">
 		<link href="{{ site.baseurl }}/style.css" rel="stylesheet">
 	</head>
 	<body>
+
+<h1> {{ page.title}}</h1>
+{% for cat in page.categories %}
+<div style="color:green; font-weight:bold;">{{ cat }}</div>
+{% endfor %}
 {{ content }}
 	</body>
 </html>
