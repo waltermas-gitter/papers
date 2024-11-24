@@ -1,0 +1,53 @@
+---
+layout: default
+title: welcome
+---
+<script>
+// https://www.weatherapi.com/my/
+// 9588ff9a0a094400818130159231211
+
+url =
+	"https://api.weatherapi.com/v1/current.json?key=9588ff9a0a094400818130159231211&q=Rosario&aqi=no";
+fetch(url)
+	.then((response) => response.json())
+	.then((data) => mostrarData(data))
+	.catch((error) => console.log(error));
+
+const mostrarData = (data) => {
+	console.log(data.current);
+	
+	let temp = document.getElementById("temp");
+	temp.innerText = data.current.temp_c + "º   " + data.current.condition.text;
+	let viento = document.getElementById("viento");
+	viento.innerText = "viento " + data.current.wind_dir + " " + data.current.wind_kph + " km/h";
+	let humedad = document.getElementById("humedad");
+	humedad.innerText = "humedad " + data.current.humidity + " %";
+	let presion = document.getElementById("presion");
+	presion.innerText = "presion " + data.current.pressure_mb + " hPa";
+	let precip = document.getElementById("precip");
+	precip.innerText ="precipitaciones " + data.current.precip_mm + " mm";
+	let icono = document.getElementById("icon");
+	icono.src = data.current.condition.icon;
+};
+
+// dolar
+const urldolar = "https://api.bluelytics.com.ar/v2/latest";
+fetch(urldolar)
+	.then((response) => response.json())
+	.then((data) => mostrarDolar(data))
+	.catch((error) => console.log(error));
+
+const mostrarDolar = (data) => {
+	let d = document.getElementById("dolar");
+	d.innerText = 'Dolar ' + data['blue']['value_sell']
+};
+</script>
+
+<p id="dolar"></p>
+<p id="temp"></p>
+<img id="icon" src="" alt="">
+<p id="viento"></p>
+<p id="humedad"></p>
+<p id="presion"></p>
+<p id="precip"></p>
+{{ page.path }}
