@@ -57,4 +57,6 @@ ul li:before {
   width: 12px;
   border-radius: 50%;
 }
-    
+code {
+	background: #e8dbef;
+}    
