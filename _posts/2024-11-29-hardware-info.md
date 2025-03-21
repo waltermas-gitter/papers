@@ -14,3 +14,5 @@ cat /etc/*release
 lspci, lsusb  
 mount  
 service --status-all  
+
+echo "$XDG_SESSION_TYPE"  xorg or wayland  
