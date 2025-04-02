@@ -1,0 +1,34 @@
+#EXTM3U
+#EXTINF:0, radio 2
+http://radio.garden/api/ara/content/listen/bLW1nKFh/channel.mp3
+
+#EXTINF:0, radiofonica
+http://radio.garden/api/ara/content/listen/1YLzLGoi/channel.mp3
+
+#EXTINF:0, cadena 3 Rosario
+https://playerservices.streamtheworld.com/api/livestream-redirect/c3rosario.mp3
+
+#EXTINF:0, mitre
+http://radio.garden/api/ara/content/listen/0CJX17oS/channel.mp3
+
+#EXTINF:0, mar de ajo
+http://radio.garden/api/ara/content/listen/rz13IHkz/channel.mp3
+
+#EXTINF:0, frecuencia arena
+http://radio.garden/api/ara/content/listen/ZHV9p9c8/channel.mp3
+
+#EXTINF:0, arena radio
+http://radio.garden/api/ara/content/listen/e7BvK556/channel.mp3
+
+#EXTINF:0, itataia
+http://radio.garden/api/ara/content/listen/6eva9Gaq/channel.mp3
+
+#EXTINF:0, fm sapukay
+http://radio.garden/api/ara/content/listen/n1x1bt_m/channel.mp3
+
+#EXTINF:0, FM Popular 89.1
+http://radio.garden/api/ara/content/listen/USU71Y1y/channel.mp3
+
+#EXTINF:0, 92.5 FM CFBX
+http://radio.garden/api/ara/content/listen/e45w0GIa/channel.mp3
+
