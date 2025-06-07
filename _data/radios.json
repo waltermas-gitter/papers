@@ -33,16 +33,12 @@
             "url": "http://radio.garden/api/ara/content/listen/6eva9Gaq/channel.mp3"
         },
         {
-            "name": "fm sapukay",
-            "url": "http://radio.garden/api/ara/content/listen/n1x1bt_m/channel.mp3"
-        },
-        {
-            "name": "FM Popular 89.1",
-            "url": "http://radio.garden/api/ara/content/listen/USU71Y1y/channel.mp3"
-        },
-        {
             "name": "92.5 FM CFBX",
             "url": "http://radio.garden/api/ara/content/listen/e45w0GIa/channel.mp3"
+        },
+        {
+            "name": "Radio Oost West",
+            "url": "http://radio.garden/api/ara/content/listen/1clzqp5F/channel.mp3"
         }
     ]
 }

@@ -1,1 +1,52 @@
-{ "radios": [ { "name": "radio 2", "url": "http://radio.garden/api/ara/content/listen/bLW1nKFh/channel.mp3" }, { "name": "radiofonica", "url": "http://radio.garden/api/ara/content/listen/1YLzLGoi/channel.mp3" }, { "name": "cadena 3 Rosario", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/c3rosario.mp3" }, { "name": "mitre", "url": "http://radio.garden/api/ara/content/listen/0CJX17oS/channel.mp3" }, { "name": "mar de ajo", "url": "http://radio.garden/api/ara/content/listen/rz13IHkz/channel.mp3" }, { "name": "frecuencia arena", "url": "http://radio.garden/api/ara/content/listen/ZHV9p9c8/channel.mp3" }, { "name": "arena radio", "url": "http://radio.garden/api/ara/content/listen/e7BvK556/channel.mp3" }, { "name": "itataia", "url": "http://radio.garden/api/ara/content/listen/6eva9Gaq/channel.mp3" }, { "name": "fm sapukay", "url": "http://radio.garden/api/ara/content/listen/n1x1bt_m/channel.mp3" } ] }
+{
+    "radios": [
+        {
+            "name": "radio 2",
+            "url": "http://radio.garden/api/ara/content/listen/bLW1nKFh/channel.mp3"
+        },
+        {
+            "name": "radiofonica",
+            "url": "http://radio.garden/api/ara/content/listen/1YLzLGoi/channel.mp3"
+        },
+        {
+            "name": "cadena 3 Rosario",
+            "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/c3rosario.mp3"
+        },
+        {
+            "name": "mitre",
+            "url": "http://radio.garden/api/ara/content/listen/0CJX17oS/channel.mp3"
+        },
+        {
+            "name": "mar de ajo",
+            "url": "http://radio.garden/api/ara/content/listen/rz13IHkz/channel.mp3"
+        },
+        {
+            "name": "frecuencia arena",
+            "url": "http://radio.garden/api/ara/content/listen/ZHV9p9c8/channel.mp3"
+        },
+        {
+            "name": "arena radio",
+            "url": "http://radio.garden/api/ara/content/listen/e7BvK556/channel.mp3"
+        },
+        {
+            "name": "itataia",
+            "url": "http://radio.garden/api/ara/content/listen/6eva9Gaq/channel.mp3"
+        },
+        {
+            "name": "fm sapukay",
+            "url": "http://radio.garden/api/ara/content/listen/n1x1bt_m/channel.mp3"
+        },
+        {
+            "name": "FM Popular 89.1",
+            "url": "http://radio.garden/api/ara/content/listen/USU71Y1y/channel.mp3"
+        },
+        {
+            "name": "92.5 FM CFBX",
+            "url": "http://radio.garden/api/ara/content/listen/e45w0GIa/channel.mp3"
+        },
+        {
+            "name": "Radio Oost West",
+            "url": "http://radio.garden/api/ara/content/listen/1clzqp5F/channel.mp3"
+        }
+    ]
+}
