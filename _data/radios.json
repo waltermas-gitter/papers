@@ -21,6 +21,7 @@
             "url": "http://radio.garden/api/ara/content/listen/0CJX17oS/channel.mp3"
         },
         {
+            "iconotext": "MA",
             "name": "mar de ajo",
             "url": "http://radio.garden/api/ara/content/listen/rz13IHkz/channel.mp3"
         },
@@ -41,11 +42,6 @@
         {
             "name": "92.5 FM CFBX",
             "url": "http://radio.garden/api/ara/content/listen/e45w0GIa/channel.mp3"
-        },
-        {
-            "iconotext": "OW",
-            "name": "Radio Oost West",
-            "url": "http://radio.garden/api/ara/content/listen/1clzqp5F/channel.mp3"
         }
     ]
 }
