@@ -90,3 +90,16 @@ return value * 2;
 }
 
 ```
+# map
+``` javascript
+["a", "b", "c"].map(x => x.toUpperCase())
+// resultado: ["A", "B", "C"]
+```
+# funciones flecha
+``` javascript
+const sumar = (a, b) => a + b;
+es igual a:
+function sumar(a, b) {
+  return a + b;
+}
+
