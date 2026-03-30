@@ -11,7 +11,8 @@ title: index
 	<ul>
 	  {% for post in cat[1] %}
 	    <li>
-		    <a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+	<button type="button" class="btn btn-outline-primary mt-2"><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a></button>
+
 	    </li>
 	  {% endfor %}
 	</ul>
