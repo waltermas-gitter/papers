@@ -2,7 +2,7 @@
 layout: default
 title: index
 ---
-<div class="gcse-search"></div><a href="{{ site.baseurl }}/welcome.html">welcome!</a>
+<p class="h3"><a href="{{ site.baseurl }}/welcome.html">welcome!</a></p>
 <ul>
   {% for cat in site.categories %}
     <h2>
@@ -24,7 +24,7 @@ title: index
 <ul>
 {% for myimage in image_files | offset: 2 %}
 	    <li>
-		    <a href="{{myimage.path| prepend: site.baseurl}}">{{ myimage.name }}</a>
+	<button type="button" class="btn btn-outline-primary mt-2"><a href="{{myimage.path| prepend: site.baseurl}}">{{ myimage.name }}</a></button>
 	    </li>
 {% endfor %}
 </ul>
